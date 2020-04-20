@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    {% if title %}
+        <title>{{ title }} · Daniel Horrigan</title>
+    {% else %}
+        <title>Daniel Horrigan</title>
+    {% endif %}
+</head>
+<body>
+    {% block content %}{% endblock %}
+</body>
+</html>
